@@ -20,10 +20,10 @@
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Portfolio"
-        android:textColor="#FFFFFF"
-        android:textSize="25sp"
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="133dp" />
+        android:text="Portfolio Value"
+        android:textColor="#2ee3ff"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="203dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
