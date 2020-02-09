@@ -26,7 +26,6 @@ import java.util.ArrayList;
 
             //temporary Stock variable to hold the stock information
             Stock tempStock = new Stock(stockName);
-            tempStock.setQuantityOwned(quantity);
             System.out.println(tempStock.getQuantityOwned());
 
             //calculates transaction cost based on current price of stock and quantity
@@ -34,6 +33,7 @@ import java.util.ArrayList;
 
             if (purchaseCost <= startingValue) {
 
+                tempStock.setQuantityOwned(quantity);
 
                 stocksOwned.add(tempStock); //add it to stock list
                 cashValue -= purchaseCost;

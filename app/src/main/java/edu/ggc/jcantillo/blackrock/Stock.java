@@ -9,11 +9,11 @@ public class Stock {
     private String stockName;
     private int quantityOwned;
 
-    public Stock(String stockAbreviation){
-        this.stockName = stockAbreviation;
+    public Stock(String stockAbbreviation){
+        this.stockName = stockAbbreviation;
         purchaseDate = "5:19am";
-        purchaseValue = getCurrentValue(stockAbreviation);
-        quantityOwned = 0;
+        purchaseValue = getCurrentValue(stockAbbreviation);
+        this.quantityOwned = 0;
     }
 
     public double getCurrentValue(String stockAbreviation){
@@ -27,7 +27,7 @@ public class Stock {
     }
 
     public void setQuantityOwned(int quantityOwned) {
-        quantityOwned = this.quantityOwned;
+        this.quantityOwned = quantityOwned;
     }
 
     public int getQuantityOwned(){
